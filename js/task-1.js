@@ -1,6 +1,6 @@
 const getUserNames = users => {
   const allName = users.map(user => user.name);
-  console.log(allName);
+  return allName;
 };
 
 console.log(
